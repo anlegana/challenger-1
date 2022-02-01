@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: red;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+main section p {
+  color: #fe3;
+}
+
+.todo p {
+  color: #000;
+}
