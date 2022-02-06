@@ -3,19 +3,79 @@
   margin: 0;
 }
 
+body {
+  background-image: url('/image/ice_cream_background.png');
+}
 .header {
-  background-color: red;
+  background-color: pink;
 }
 
 ul {
   display: flex;
-  justify-content: center;
+  justify-content: right;
+  width: 93%;
 }
 
+body header nav ul li {
+  padding-right: 18px;
+}
 main section p {
-  color: #fe3;
+  color: black;
 }
 
 .todo p {
   color: #000;
+}
+
+nav {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+main {
+  margin-top: 45px;
+  height: 300px;
+}
+.welcome {
+  margin-top: 45px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 5%;
+  height: 50%;
+  width: 50%;
+  margin: 0 auto;
+}
+.welcome__container {
+  background-color: rgba(0, 0, 0, 0.185);
+  text-align: center;
+  align-items: center;
+  height: 80%;
+  margin-left: 80px;
+  border-radius: 15px 50px;
+  width: 80%;
+}
+.todo {
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 5%;
+  height: 50%;
+  width: 50%;
+  margin: 0 auto;
+}
+.todo__container {
+  background-color: rgba(0, 0, 0, 0.185);
+  text-align: center;
+  margin-left: 80px;
+  justify-content: center;
+
+  height: 80%;
+  border-radius: 15px 50px;
+  width: 80%;
+}
+
+li {
+  list-style: none;
+}
+footer {
+  width: 50%;
+  margin: 0 auto;
 }
